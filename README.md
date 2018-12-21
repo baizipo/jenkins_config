@@ -1,4 +1,6 @@
 # jenkins_config
+
+```
 wget -O /etc/yum.repos.d/jenkins.repo http://jenkins-ci.org/redhat/jenkins.repo
 rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
 yum install jenkins
@@ -20,27 +22,27 @@ https://www.cnblogs.com/kevingrace/p/6479813.ht
 gitlab hook
 https://blog.csdn.net/a18210148948/article/details/69563290
 
+```
 --------------------------------------------------------------------------------------------------------------------------------------------
 jenkins 安装gitlab; gitlab hook;gitlab auth 插件
 
-项目添加webhooks
-进入project-setting-Integrations-添加url和token(jenkins: http://gitlab.example.com:8088/project/ansible-playbook-Advanced-Generated获取token)
+- 项目添加webhooks
+  进入project-setting-Integrations-添加url和token(jenkins: http://gitlab.example.com:8088/project/ansible-playbook-Advanced-Generated获取token)
 
 
-gitlab_config_outbond
-Admin Area-setting - Outbound requests  
+- gitlab_config_outbond
+  Admin Area-setting - Outbound requests  
 
 
-after seed  do ops
-https://www.cnblogs.com/caoj/p/7815820.html
+- after seed  do ops
+  https://www.cnblogs.com/caoj/p/7815820.html
 
-Build Triggers
-Build after other projects are built
+- Build Triggers
+  Build after other projects are built
 
 
-build with Parameters
-
-This project is parameterized  	
+- build with Parameters
+  This project is parameterized  	
   Parameter Type -> Tag
 
 -------------------------------------------------------------------------------------------------------------------------------------------
